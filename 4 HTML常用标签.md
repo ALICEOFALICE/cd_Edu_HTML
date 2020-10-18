@@ -25,7 +25,7 @@
 *   加了标题的文字会加粗放大，字号也会依次放大
 *   一个标题独占一行
 
-例子：[标题与段落](../hub/标题与段落.html)
+例子：[标题与段落](https://github.com/ALICEOFALICE/cd_deu_HTML/blob/main/hub/%E6%A0%87%E9%A2%98%E4%B8%8E%E6%AE%B5%E8%90%BD.html)
 
 ## 4.3 段落与换行标签
 
@@ -84,4 +84,35 @@
 *   `<div>`标签用来布局，但是现在一行只能放一个`<div>`。大盒子
 *   `<span>`标签用于布局，一行上可以用多个`<span>`，小盒子
 
-例子
+**例子：**
+
+[div与span.html](https://github.com/ALICEOFALICE/cd_deu_HTML/blob/main/hub/div%E4%B8%8Espan.html)
+
+## 4.5/4.6 图片标签与路径
+
+1.  图片标签
+
+    在HTML标签中，`<img>`用于定义HTML页面中的图像
+
+    ```html
+    <img src="https://txcdn.2cy.plus/imgs/2020/07/c2df83a6af06fcf7.png"/>
+    ```
+
+    单词image的缩写，翻译为图像
+
+    **src**是`<img>`标签的必须属性，它用于指定图像文件的路径与文件名
+
+    所谓属性：简单理解就是属于这个图像标签的特征
+
+    图像标签的其他属性：
+
+    | 属性   | 属性值   | 说明                             |
+    | ------ | -------- | -------------------------------- |
+    | src    | 图片路径 | 必须属性                         |
+    | alt    | 文本     | 替换文本、图片不能显示的蚊子     |
+    | title  | 文本     | 提示文本、鼠标放上图片显示的蚊子 |
+    | width  | 像素     | 设置图片宽度                     |
+    | height | 像素     | 设置图片高度                     |
+    | border | 像素     | 设置图片边框的粗细               |
+
+    例子：[img标签.html](https://github.com/ALICEOFALICE/cd_deu_HTML/blob/main/hub/img%E6%A0%87%E7%AD%BE.html)
